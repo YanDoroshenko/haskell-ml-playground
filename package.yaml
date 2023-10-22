@@ -20,9 +20,12 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/githubuser/haskell-ml-playground#readme>
 
 dependencies:
-- base >= 4.7 && < 5
-- random >= 1.2.1.1
-- tensorflow >= 0.2.0.0
+- base
+- tensorflow >= 0.3.0.0
+- tensorflow-core-ops >= 0.3.0.0
+- tensorflow-ops >= 0.3.0.0
+- random
+- HUnit
 
 ghc-options:
 - -Wall
