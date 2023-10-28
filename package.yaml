@@ -25,6 +25,7 @@ dependencies:
 - tensorflow-core-ops >= 0.3.0.0
 - tensorflow-ops >= 0.3.0.0
 - random
+- vector
 - HUnit
 
 ghc-options:
